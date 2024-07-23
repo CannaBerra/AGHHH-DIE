@@ -11,7 +11,6 @@
 /* global styling*/
 html{
   font-family: "Montserrat";
-  margin: 0rem 2rem;
 }
 
 /* Styling for the image container and the items inside it */
@@ -19,6 +18,7 @@ html{
   display: flex; 
   flex-wrap: wrap; 
 }
+
 
 /*Items for all the screenshots and pictures of your stuff*/
 .item{
@@ -42,7 +42,7 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
+  background-color: #0d1430;
   top: 0;
   width: 100%;
 }
@@ -54,18 +54,18 @@ nav ul li{
 
 nav li a{
   display: block;
-  color: white;
+  color: blue;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
 }
 
 nav li:hover{
-  background-color: orangered;
+  background-color: rebeccapurple;
 }
 
 nav #active{
-  background-color: darkgreen;
+  background-color: #950404;
 }
 
 h1 {
